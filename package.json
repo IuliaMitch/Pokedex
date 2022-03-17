@@ -1,0 +1,28 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IuliaMitch/Pokedex.git"
+  },
+  "author": "Iulia Mitch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IuliaMitch/Pokedex/issues"
+  },
+  "homepage": "https://github.com/IuliaMitch/Pokedex#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
