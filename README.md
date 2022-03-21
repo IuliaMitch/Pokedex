@@ -1,7 +1,7 @@
 ## Meu nome é Iulia, me chamem de Iu
 Pronomes: Ela/Dela
 
-Contatos: <a hrf="https://www.linkedin.com/in/iulia-mitch-f-dos-santos-29b015230/"><img hrf="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="linkedin"></a>
+Contatos: <a href="https://www.linkedin.com/in/iulia-mitch-f-dos-santos-29b015230/"><img href="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="linkedin"></a>
 
 # Pokedex - Projeto - Semana: 2 - BlueTech
 
