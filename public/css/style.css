@@ -7,6 +7,7 @@
 }
 body {
   background-color: rgb(211, 211, 211);
+  height: 100%;
 }
 
 header {
@@ -27,6 +28,7 @@ main {
   margin: 0 10rem 0 10rem;
   border-radius: 1rem;
   padding: 5rem;
+  height: 100vh;
 }
 section#nav {
   display: flex;
@@ -265,7 +267,7 @@ footer {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 25%;
+  height: 100%;
   padding: 1rem;
 }
 footer a {
