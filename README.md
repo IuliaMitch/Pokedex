@@ -19,5 +19,7 @@ Esse Projeto é uma pokedex com a finalidade de estudar Fullstack, porém voltad
    - HTML e CSS
 
    - Javascript
+
+
 }
 
