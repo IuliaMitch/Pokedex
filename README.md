@@ -6,16 +6,18 @@ Contatos: <a href="https://www.linkedin.com/in/iulia-mitch-f-dos-santos-29b01523
 # Pokedex - Projeto - Semana: 2 - BlueTech
 
 # Descrição do Projeto
-Esse Projeto é uma pokedex com a finalidade de estudar Fullstack, porém voltado para o Back-end.
+Esse Projeto é uma pokedex com a finalidade de estudar Fullstack, porém voltado para o Back-end com conhecimentos de Front-end.
 
 
 # Stacks {
-    As stacks que usei para esse projeto estão abaixo.
+    As tecnologias que usei para esse projeto estão abaixo.
+    
+   - Express.js
 
-    EJS
+   - EJS e Express
 
-    CSS
+   - HTML e CSS
 
-    NodeJS
+   - Javascript
 }
 
