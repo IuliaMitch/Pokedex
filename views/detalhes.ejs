@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/Pokedex/public/img/favicon.png">
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Pokedex</title>
+  </head>
+  <body>
+    <header>
+      <h1>Pokedex</h1>
+    </header>
+
+    <main>
+      <section id="nav">
+        <nav>
+          <ul>
+            <li>
+              <img
+                src="https://www.pngmart.com/files/2/Pokeball-PNG-Image.png"
+                alt="pokebola"
+              />
+            </li>
+            <li><a href="/home">Home</a></li>
+            <li><a href="/cadastro">Cadastre</a></li>
+            <li><a href="/detalhes">Detalhes</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section id="cards">
+        <h2>Detalhes do Pokemon!</h2>
+        <div class="card" id="detalhes">
+          <h4>Nº <%= newPokemon.numero %></h4>
+          <h2><%= newPokemon.nome %></h2>
+          <p>Descrição: <%= newPokemon.descricao %></p>
+          <div class="description" id="height">
+            <p><%= newPokemon.altura %> m</p>
+            <p><%= newPokemon.peso %> kg</p>
+          </div>
+          <div class="description" id="skill">
+            <p>Cate:<%= newPokemon.categoria %></p>
+            <p>Skill:<%= newPokemon.habilidade %></p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h4>Pokedex by Iulia Mitch</h4>
+      <a href="https://github.com/IuliaMitch" Target="_blank">Github</a>
+    </footer>
+  </body>
+</html>

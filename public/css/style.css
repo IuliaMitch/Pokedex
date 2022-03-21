@@ -1,98 +1,284 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: roboto, arial;
+  margin: 0;
+  padding: 0;
+  font-family: "Open sans", sans-serif;
 }
-body{
-    background-color: rgb(211, 211, 211);
+body {
+  background-color: rgb(211, 211, 211);
 }
 
 header {
-    background-color: red;
-    padding: 3rem;
-    border-radius: 1rem;
-    height: 100%;
+  background-color: #dc0a2d;
+  padding: 3rem;
+  height: 100%;
 }
 
 header h1 {
-    font-size: 3rem;
-    color: white;
-    text-align: center;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
 }
 
 main {
-    background-color: white;
-    margin: 0 10rem 0 10rem;
-    padding: 5rem;
+  display: flex;
+  background-color: white;
+  margin: 0 10rem 0 10rem;
+  border-radius: 1rem;
+  padding: 5rem;
+}
+section#nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
 }
 
-section#cards{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+section#nav nav {
+  height: 30rem;
+  text-align: center;
+  background-color: #dc0a2d;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  flex-wrap: wrap;
+  width: 6rem;
+  box-shadow: 5px 5px 5px 5px #00000015;
+  border: solid 1px black;
+}
+
+section#nav nav ul {
+  display: flex;
+  padding: 0.5rem;
+  margin: 1rem;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+}
+section#nav nav ul li {
+  box-shadow: 5px 5px 5px 5px #00000015;
+  margin-bottom: 1rem;
+  border: solid 1px black;
+  border-radius: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+section#nav nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+section#nav nav ul li:hover {
+  transform: scale(1.1);
+}
+
+section#nav nav ul li img {
+  width: 4rem;
+  margin-bottom: 0.6rem;
+}
+
+section#cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 section#cards div.card {
-    text-align: center;
-    background-color: rgb(253, 94, 94);
-    border-radius: 1rem;
-    padding: 1.6rem;
-    width: 10rem;
-    margin: 3rem 0 5rem 0;
-    box-shadow: 5px 5px 5px 5px #00000015;
-    border:solid 1px black;
+  text-align: center;
+  background-color: rgb(168, 168, 168);
+  border-radius: 1rem;
+  padding: 1.3rem;
+  width: 20%;
+  margin: 3rem 0 3rem 0;
+  box-shadow: 5px 5px 5px 5px #00000015;
+  border: solid 1px black;
 }
 
-section#cards div.card:hover{
-    transform: scale(1.1);
-    
+section#cards div.card:hover {
+  transform: scale(1.1);
 }
+section#cards div.card div.description {
+  display: flex;
+  justify-content: center;
+  padding: 0.1rem;
+}
+section#cards div#detalhes {
+  padding: 3rem;
+  margin: 1rem;
+  width: 40%;
+}
+
+section#cards div#detalhes div#height {
+  margin: 1rem;
+}
+
+section#cards div#detalhes div#skill {
+  margin: 1rem;
+}
+section#cards div#detalhes p {
+  padding: 0.5rem;
+  margin: 0 0.3rem 0 0.3em;
+}
+
+section#cards div.card div.description p {
+  border: solid 1px black;
+  padding: 0.1rem;
+  margin: 0 0.2rem 0 0;
+  border-radius: 0.5rem;
+  background-color: white;
+  color: #dc0a2d;
+}
+
 section#cards h4 {
-    margin-bottom: 1rem;
-    border: solid 1px black;
-    background-color: white;
-    padding: .5rem;
-    border-radius:1rem ;
+  margin-bottom: 1rem;
+  border: solid 1px black;
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 1rem;
 }
 
 section#cards h2 {
-    margin: 1rem 0 1rem 0;
-    width: 100%;
-    text-align: center;
-    
+  margin: 1rem 0 1rem 0;
+  width: 100%;
+  text-align: center;
 }
-main a {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    border: solid 1px black;
-    text-decoration: none;
-    width: 10%;
-    padding: .7rem;
-    margin: 0 auto;
-    border-radius: 1rem;
-    background-color: red;
-    color: white;
-    transition: .1s all ease-in-out;
-}
-
-main a:hover {
-    background-color: white;
-    color: red;
-    border: solid 1px red;
+section#cards a {
+  border: solid 1px black;
+  text-align: center;
 }
 
 section#cards div.card img {
-    width: 100%;
+  width: 100%;
 }
 section#cards div.card p#tipo {
-    border-radius: 1rem;
-    border: solid 1px black;
-    background-color: white;
-    padding: .3rem;
-    width: 50%;
-    margin: .5rem auto;
-    color: rgb(253, 94, 94);;
+  border-radius: 1rem;
+  border: solid 1px black;
+  background-color: white;
+  padding: 0.3rem;
+  width: 50%;
+  margin: 0.5rem auto;
+  color: #dc0a2d;
+  margin-bottom: 1rem;
+}
+section#cards div.card a {
+  margin: 2rem auto;
+  color: #dc0a2d;
+  border: solid 1px #dc0a2d;
+  background-color: white;
+  border-radius: 0.4rem;
+  padding: .2rem;
+  width: 30%;
+  transition: all 0.1s ease-in-out;
+  text-decoration: none;
+}
+section#cards div.card a:hover {
+  color: white;
+  border: solid 2px white;
+  background-color: #dc0a2d;
+}
+
+section#cadastro {
+  margin: 0 0 0 5rem;
+}
+
+section#cadastro h2 {
+  color: #dc0a2d;
+  margin-left: 9rem;
+}
+
+div.mensagem {
+  display: flex;
+  margin-left: 9rem;
+  background-color: white;
+  border: solid 1px black;
+  box-shadow: 5px 5px 5px 5px #00000020;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+div.mensagem h4 {
+  margin-right: 1rem;
+  color: green;
+}
+
+div.mensagem button {
+  display: flex;
+  align-items: center;
+  height: 23px;
+  width: 18px;
+  padding: .2rem;
+  text-align: center;
+  color: white;
+  background-color: #dc0a2d;
+  border: solid 2px black;  
+  cursor: pointer;
+}
+div.mensagem button:hover {
+  transform: scale(1.1);
+}
+
+section#cadastro form {
+  padding: 1rem;
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+section#cadastro form label {
+  margin-top: 0.5rem;
+  margin-bottom: 0.4rem;
+  font-size: 1.2rem;
+  color: #dd0c2f;
+}
+
+section#cadastro form input {
+  outline: none;
+  padding: 0.6rem;
+  font-size: 1rem;
+  color: #dd0c2f;
+}
+section#cadastro form button#btn-cadastrar {
+  margin: 1rem auto;
+  color: #dc0a2d;
+  border: solid 1px #dc0a2d;
+  background-color: white;
+  border-radius: 0.4rem;
+  width: 25%;
+  padding: 0.5rem;
+  transition: all 0.1s ease-in-out;
+}
+section#cadastro form button#btn-cadastrar:hover {
+  color: white;
+  border: solid 2px white;
+  background-color: #dc0a2d;
+}
+
+footer {
+  color: white;
+  font-size: 1.4rem;
+  background-color: #dc0a2d;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 25%;
+  padding: 1rem;
+}
+footer a {
+  color: black;
+  background-color: white;
+  border: solid 2px rgb(149, 149, 149);
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+footer a:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.1);
 }
