@@ -1,15 +1,25 @@
+## Meu nome é Iulia, me chamem de Iu
+Pronomes: Ela/Dela
+
+Contatos: <a href="https://www.linkedin.com/in/iulia-mitch-f-dos-santos-29b015230/">Linkedin</a>
+
 # Pokedex - Projeto - Semana: 2 - BlueTech
 
 # Descrição do Projeto
-Esse Projeto é uma pokedex com a finalidade de estudar Fullstack, porém voltado para o Back-end.
+Esse Projeto é uma pokedex com a finalidade de estudar Fullstack, porém voltado para o Back-end com conhecimentos de Front-end.
 
-# Stacks{
-    As stacks que usei para esse projeto estão abaixo.
 
-    EJS
+# Stacks {
+    As tecnologias que usei para esse projeto estão abaixo.
+    
+   - Express.js
 
-    CSS
+   - EJS e Express
 
-    NodeJS
+   - HTML e CSS
+
+   - Javascript
+
+
 }
 
