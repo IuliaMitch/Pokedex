@@ -28,7 +28,7 @@ main {
   margin: 0 10rem 0 10rem;
   border-radius: 1rem;
   padding: 5rem;
-  height: 100vh;
+  height: 100%;
 }
 section#nav {
   display: flex;
